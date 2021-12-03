@@ -1,0 +1,31 @@
+.about_me {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 100px;
+}
+.about_me_img {
+	border-radius: 15px;
+	
+}
+.about_me_text {
+	margin-top: 100px;
+	
+
+}
+.about_me_text_title {
+}
+.about_me_text_columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+
+}
+.about_me_text_columns_proffesion{
+	margin-top:30px ;
+
+}
+.about_me_text_columns_img {
+	
+}
+.about_me_text_columns_title {
+}

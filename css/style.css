@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&family=Signika+Negative&display=swap');
+:root{
+	--title-color: #566366;
+	
+}
+img{
+	display: block;
+
+}
+h2{
+	margin: 20px 0px 20px 0px ;
+	color: var(--title-color);
+	font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+h3{
+	margin: 20px 0px 20px 0px ;
+	color: var(--title-color);
+	font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#my_skills_button {
+}
+#DOWNLOAD RESUME {
+}
+#username {
+}
+#useremail {
+}
+#usermessage {
+}
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+@media(max-width:989px){
+	body_lock{
+		overflow: hidden;
+	}
+.header {
+}
+}
+.columns {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	
+}
+.columns_text{
+	max-width: 300px;
+	text-align: left;
+	color: var(--title-color--);
+}
+
+.my_skills {
+}
+.resume {
+}
+.my_education {
+}
+.work_experience {
+}
+.footer {
+}
+.header_img_title {
+	text-align: center;
+	background-image:url(/img/IMG_3227.JPG);
+	position: relative;
+	min-height: 400px;
+	background-size:cover 50%;
+}
+.header_menu {
+	
+	
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 20px;
+	
+	
+
+	
+
+}
+.header_block{
+	background-color:#252e30;
+	min-height: 50px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	
+}
+
+
+.my_skills_title {
+}
+.my_skills_text {
+}
+.button {
+}
+.my_skills_scales {
+}
+.resume_title {
+}
+.subtitle_text {
+	color: var(--title-color);
+	line-height: 1.67;
+	font-family: Roboto;
+
+}
+.my_education_title {
+}
+.my_education_diploma {
+}
+.work_experience_title {
+}
+.work_experience_positions {
+}
+.footer_contact_me {
+}
+.header_img {
+	width: 100%;
+	
+}
+.header_title_container {
+}
+.header_logo {
+}
+.columns_text_title {
+}
+
+.my_skills_scales_title {
+}
+.my_education_diploma_title {
+}
+.small_text {
+}
+.gpa {
+}
+.strip {
+}
+.work_experience_positions_title {
+}
+.work_experience_positionsa_title {
+}
+.footer_contact_me_title {
+}
+.footer_contacts {
+}
+.footer_form {
+}
+.footer_social_networks {
+}
+.header_title_text {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	right: 25%;
+	color: black;
+	text-shadow:1px 1px  2px silver;
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	
+}
+
+.header_menu_list {
+	display: flex;
+	margin-right: 50px;
+	gap: 25px
+}
+
+
+.header_menu_list_link {
+	color: white;
+	
+}
+.header_menu_list_link:hover {
+	color: green;
+	cursor: pointer;
+
+}
+
+.footer_form_text {
+}
+.footer_button_contact_me {
+}
