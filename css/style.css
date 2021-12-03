@@ -35,15 +35,11 @@ h3{
 
 .wrapper {
 	max-width: 1100px;
-	margin: 0 auto;
+	
+	margin: 0px auto;
+	padding: 0px 10px;
 }
-@media(max-width:989px){
-	body_lock{
-		overflow: hidden;
-	}
-.header {
-}
-}
+
 .columns {
 	margin-top: 40px;
 	display: flex;
@@ -66,33 +62,6 @@ h3{
 .work_experience {
 }
 .footer {
-}
-.header_img_title {
-	text-align: center;
-	background-image:url(../img/header.jpg);
-	position: relative;
-	min-height: 400px;
-	background-size:cover 50%;
-}
-.header_menu {
-	
-	
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	margin: 20px;
-	
-	
-
-	
-
-}
-.header_block{
-	background-color:#252e30;
-	min-height: 50px;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
-	
 }
 
 
@@ -122,14 +91,7 @@ h3{
 }
 .footer_contact_me {
 }
-.header_img {
-	width: 100%;
-	
-}
-.header_title_container {
-}
-.header_logo {
-}
+
 .columns_text_title {
 }
 
@@ -155,35 +117,7 @@ h3{
 }
 .footer_social_networks {
 }
-.header_title_text {
-	position: absolute;
-	top: 25%;
-	left: 25%;
-	right: 25%;
-	color: black;
-	text-shadow:1px 1px  2px silver;
-	font-family: 'Roboto', sans-serif;
-	font-size: 60px;
-	font-weight: bold;
-	
-}
 
-.header_menu_list {
-	display: flex;
-	margin-right: 50px;
-	gap: 25px
-}
-
-
-.header_menu_list_link {
-	color: white;
-	
-}
-.header_menu_list_link:hover {
-	color: green;
-	cursor: pointer;
-
-}
 
 .footer_form_text {
 }

@@ -29,3 +29,15 @@
 }
 .about_me_text_columns_title {
 }
+
+@media(max-width:989px){
+.about_me_img{
+	width: 100%;
+    height: auto;
+}
+.about_me_text {
+	margin-left: 40px;
+	
+
+}
+}
