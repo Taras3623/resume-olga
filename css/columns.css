@@ -1,0 +1,17 @@
+.columns {
+	
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin: 0 auto;
+	max-width: 929px;
+	padding: 99px 0px 99px 0px;
+	
+}
+.columns_text{
+	max-width: 300px;
+	text-align: left;
+	color: var(--title-color--);
+}
+.columns_text_title {
+}

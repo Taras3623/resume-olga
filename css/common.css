@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&family=Signika+Negative&display=swap");
+:root {
+	--title-color: #566366;
+}
+img {
+	display: block;
+}
+h2 {
+	margin: 20px 0px 20px 0px;
+	color: var(--title-color);
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+}
+h3 {
+	margin: 20px 0px 20px 0px;
+	color: var(--title-color);
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#username {
+}
+#useremail {
+}
+#usermessage {
+}
+
+.wrapper {
+	max-width: 1600px;
+	border: black solid 0.5px;
+	margin: 0px auto;
+}
+
+.button {
+	margin: 40px 0px 0px 0px;
+	border: solid green;
+	width: 130px;
+	height: 40px;
+	color: green;
+	background-color: white;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.subtitle_text {
+	color: var(--title-color);
+	line-height: 1.67;
+	font-family: Roboto;
+}
+
+
+
+.small_text {
+}
+.gpa {
+}
+.strip {
+}

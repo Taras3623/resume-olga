@@ -1,7 +1,8 @@
 .about_me {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin-top: 100px;
+	margin: 0 auto;
+	max-width: 929px;
 }
 .about_me_img {
 	border-radius: 15px;
@@ -17,7 +18,8 @@
 .about_me_text_columns {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	
+	gap: 30px;
+	padding: 10px;
 
 }
 .about_me_text_columns_proffesion{
