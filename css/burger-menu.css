@@ -16,7 +16,7 @@
 		left: 740px;
 		width: 30px;
 		height: 20px;
-		
+		margin-right: 100px;
 		z-index: 3;
   }
 
@@ -70,7 +70,9 @@
 	top: 15px;
 	z-index: 7;
 	
+	
 }
+
 
 .header_menu_list {
 	display: none;

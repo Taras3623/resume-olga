@@ -24,7 +24,9 @@ h3{
 
 #my_skills_button {
 }
-#DOWNLOAD RESUME {
+#download_resume {
+	background-color: #f2f2f1;
+	width: 160pxF;
 }
 #username {
 }
@@ -35,9 +37,9 @@ h3{
 
 .wrapper {
 	max-width: 1100px;
-	
+	border: #f2f2f1 solid 2px;
 	margin: 0px auto;
-	padding: 0px 10px;
+	
 }
 
 .columns {
@@ -54,8 +56,17 @@ h3{
 }
 
 .my_skills {
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	margin: 20px;
+
 }
 .resume {
+	min-width: 100%;
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+	background-color: #f2f2f1;
+	padding: 10px 0px 10px 0px;
 }
 .my_education {
 }
@@ -70,8 +81,17 @@ h3{
 .my_skills_text {
 }
 .button {
+	margin: 40px 0px 0px 0px;
+	border: solid green;
+	width: 130px;
+	height: 40px;
+	color: green;
+	background-color: white;
+	font-weight: bold;
+	font-size: 10px;
 }
 .my_skills_scales {
+	margin: 20px;
 }
 .resume_title {
 }
@@ -94,8 +114,12 @@ h3{
 
 .columns_text_title {
 }
-
+progress{
+	width: 300px;
+	height: 20px;
+}
 .my_skills_scales_title {
+	margin: 30px 0px 0px 0px;
 }
 .my_education_diploma_title {
 }

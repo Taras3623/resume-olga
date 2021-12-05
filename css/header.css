@@ -50,10 +50,12 @@
 
 }
 .header_block{
+	
 	background-color:#252e30;
 	min-height: 50px;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
+	max-width: 100%;
 	
 }
 .header_img {
@@ -72,6 +74,7 @@
 
 		overflow: hidden;
 	}
+	
 	
 .header_menu {
 	flex-wrap: wrap;
