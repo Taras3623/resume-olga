@@ -23,13 +23,24 @@ gap: 136px;
 }
 progress {
 	width: 50%;
-	max-height: 20px;
+	height: 25px;
 	
 }
 progress::before{
 	content: '50%';
-	margin-left: 200px;
+	display: flex;
 	align-items: center;
 	position: absolute;
+}
+span:nth-child(1){
+	color:red
+}
+@media(max-width:990px){
+	progress::before{
+		
+		
+		align-items: center;
+		position: absolute;
+	}
 }
 

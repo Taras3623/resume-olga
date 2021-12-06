@@ -1,6 +1,7 @@
 .header{
 	margin: 0 auto;
 	width: 100%;
+	display: block;
 }
 
 .header_img_title {
@@ -9,6 +10,7 @@
 	position: relative;
 	min-height: 400px;
 	background-size:cover 50%;
+	background-position: 250px;
 	width: 100%;
 }
 .header_title_text {
@@ -93,21 +95,22 @@
 	flex-direction: column;
 	align-items: center;
 	left: 0;
-	background-color:blanchedalmond;
+	background-color:#252e30;
 	width: 100%;
-	height: 100%;
+	height:100%;
 	overflow: auto;
 	font-size: 18px;
 	padding: 70px 10px 20px 10px;
 	transition: all 0.5s ease 0s;
 	z-index: 4;
-	top: 380px;
+	top:60px;
+	
 	
 
 }
 
 .header_menu_list_link {
-	color: black;
+	color: white;
 	
 }
 .header_menu_list_link{

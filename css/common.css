@@ -2,15 +2,13 @@
 :root {
 	--title-color: #566366;
 }
-html{
-	
-}
 
 
-body{
+
+html,body{
 	
 	overflow-x: hidden;
-	position: relative;
+	position: absolute;
 	min-width: 320px;
 	
 }
@@ -47,7 +45,7 @@ margin: 0px auto;
 }
 @media(max-width:989px){
 	.wrapper{
-		padding: 40px;
+		
 	}
 }
 
