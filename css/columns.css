@@ -1,11 +1,11 @@
 .columns {
 	
 	display: flex;
-	justify-content: center;
-	gap: 40px;
-	margin: 0 auto;
-	max-width: 929px;
+	justify-content: flex-end;
+	gap: 55px;
+	max-width: 1180px;
 	padding: 99px 0px 99px 0px;
+	margin: 0px;
 	
 }
 .columns_text{

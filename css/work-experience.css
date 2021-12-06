@@ -1,15 +1,23 @@
 .work_experience {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 20px;
+	gap: 136px;
 	margin: 0 auto;
-	max-width: 929px;
+	max-width: 1180px;
 }
 .work_experience_title {
 }
 .work_experience_positions {
-}
+margin: 171px 0 0 0;}
 .work_experience_positions_title {
 }
-.work_experience_positionsa_title {
+
+.strip{
+margin: 30px 0px 30px 0px;
+width: 561px;
+height: 1px;
+background-color: #ccc;
+}
+.work_experience_text{
+	margin:98px 0 0 0;
 }

@@ -1,10 +1,12 @@
 .my_education {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 118px;
+	gap: 136px;
 	margin: 0 auto;
-	max-width: 929px;
+	max-width: 1180px;
 	padding: 99px 0px 99px 0px;
+	border-bottom: solid 1px #ccc;
+	
 }
 .my_education_title {
 }
@@ -13,5 +15,6 @@
 .my_education_diploma_title {
 }
 .my_education_text{
+	
 
 }

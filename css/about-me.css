@@ -1,15 +1,19 @@
 .about_me {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin: 0 auto;
-	max-width: 929px;
+	background-color: #f2f2f1;
+	width: 100%;
+	
+	
 }
 .about_me_img {
-	border-radius: 15px;
+	/* border-radius: 15px; */
 	
 }
 .about_me_text {
 	margin-top: 100px;
+	padding-bottom: 100px;
+
 	
 
 }
@@ -18,8 +22,9 @@
 .about_me_text_columns {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 30px;
+	gap: 60px;
 	padding: 10px;
+	text-align: left;
 
 }
 .about_me_text_columns_proffesion{
@@ -35,7 +40,9 @@
 @media(max-width:989px){
 .about_me_img{
 	width: 100%;
-    height: auto;
+    height: 25%;
+	 padding-top: 160px;
+	 
 }
 .about_me_text {
 	margin-left: 40px;
